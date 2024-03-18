@@ -1,0 +1,9 @@
+body{
+    color: black;
+    box-shadow: 1px;
+    background-color: bisque;
+}
+form{
+    background-color: rgb(195, 232, 206);
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1  style="text-align: center;" > Survey Form</h1>
+    <form action="/form.html">
+        <p>Let us know how we can improve  freeCodeCamp</p><br>
+        <label>Name</label>
+        <input type="text" placeholder="Enter the name" required><br><br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter email" required><br><br>
+        <label>Age</label>
+        <input type="number" name="Age" placeholder="enter your age" required><br><br>
+        <label>which option best describes your current role?</label>  
+        <select id="select">
+            <option>Student</option>
+            <option>Employes</option>
+            <option>Intern</option>
+            <option>Devloper</option>
+            <option>Other</option>
+        </select><br><br>
+        <label> How likely is that you would recommand 
+             freeCodeCamp to a friend ?</label><br><br>
+             <input type="radio" name="choice">Definitely<br>
+             <input type="radio" name="choice">May be<br>
+             <input type="radio" name="choice">Not sure<br><br>
+        <label>What do you would like most in FCC:</label>
+        <select>
+            <option>select of an option
+            </option>
+            <option>option 1</option>
+            <option>option 2</option>
+            <option> option 3</option>
+         </select><br><br>
+         <label id="choice">Things that should be improved in future <br>
+               (Check all that apply):</label><br><br>
+            <input type="checkbox" name="choice">Front-end Projects<br><br>
+            <input type="checkbox" name="choice">Back-end Projects<br><br>
+            <input type="checkbox" name="choice">Data Visualization<br><br>
+        
+        <button type="submit">submit</button>
+    </form>
+    </body>
+</html>
